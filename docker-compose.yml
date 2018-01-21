@@ -1,7 +1,7 @@
 version: "3"
 services:
   dmrlink:
-    image: dmrlink
+    image: ve3lsr/dmrlink
     restart: always
     ports:
       - 62032:62032/udp
