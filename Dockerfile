@@ -15,4 +15,5 @@ RUN pip install /tmp/dmr_utils*
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ./dmrlink.py
+#CMD ./dmrlink.py
+CMD python ./IPSC_Bridge.py

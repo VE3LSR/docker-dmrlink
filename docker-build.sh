@@ -2,7 +2,7 @@
 
 source docker-vars.sh
 
-SAMPLES='confbridge_rules_SAMPLE.py dmrlink_SAMPLE.cfg playback_config_SAMPLE.py sub_acl_SAMPLE.py'
+SAMPLES='confbridge_rules_SAMPLE.py dmrlink_SAMPLE.cfg playback_config_SAMPLE.py sub_acl_SAMPLE.py IPSC_Bridge.cfg'
 
 for SAMPLE in $SAMPLES; do
     if [ ! -f $SAMPLE ]; then

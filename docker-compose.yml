@@ -7,6 +7,7 @@ services:
       - 62032:62032/udp
     volumes:
       - /srv/dmr/dmrlink.cfg:/opt/DMRlink/dmrlink.cfg
+      - /srv/dmr/IPSC_Bridge.cfg:/opt/DMRlink/IPSC_Bridge.cfg
       - /srv/dmr/confbridge_rules.py:/opt/DMRlink/confbridge_rules.py
       - /srv/dmr/playback_config.py:/opt/DMRlink/playback_config.py
       - /srv/dmr/sub_acl.py:/opt/DMRlink/sub_acl.py
